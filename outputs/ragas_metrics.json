@@ -1,0 +1,10 @@
+{
+  "sample_size": 10,
+  "metrics": {
+    "faithfulness": 0.7846153846153847,
+    "answer_relevancy": 0.5391994351510535,
+    "context_precision": 0.46888888886703695,
+    "context_recall": 0.8,
+    "answer_correctness": 0.574579668881389
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "k": 5,
+  "total_queries": 5,
+  "hits": 5,
+  "hit_rate": 1.0,
+  "per_query": [
+    {
+      "query_id": "q1",
+      "question": "What courses are included in the MSADS curriculum?",
+      "expected_urls": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/course-progressions",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs"
+      ],
+      "retrieved_urls": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/course-progressions",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/our-students"
+      ],
+      "hit": true
+    },
+    {
+      "query_id": "q2",
+      "question": "Does the MSADS program support internships or CPT?",
+      "expected_urls": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs"
+      ],
+      "retrieved_urls": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/instructors-staff",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/instructors-staff",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/our-students"
+      ],
+      "hit": true
+    },
+    {
+      "query_id": "q3",
+      "question": "What are the admission requirements for MSADS?",
+      "expected_urls": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students"
+      ],
+      "retrieved_urls": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply"
+      ],
+      "hit": true
+    },
+    {
+      "query_id": "q4",
+      "question": "Is the MSADS program available online?",
+      "expected_urls": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/online-program",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/online-program/%20",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs"
+      ],
+      "retrieved_urls": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/online-program/%20",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs"
+      ],
+      "hit": true
+    },
+    {
+      "query_id": "q5",
+      "question": "What career outcomes do students achieve after graduation?",
+      "expected_urls": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/career-outcomes",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/in-person-program",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs"
+      ],
+      "retrieved_urls": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/in-person-program",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/career-outcomes",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/career-outcomes",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/online-program/%20",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/career-outcomes"
+      ],
+      "hit": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "q1": {
+    "query": "What courses are included in the MSADS curriculum?"
+  },
+  "q2": {
+    "query": "Does the MSADS program support internships or CPT?"
+  },
+  "q3": {
+    "query": "What are the admission requirements for MSADS?"
+  },
+  "q4": {
+    "query": "Is the MSADS program available online?"
+  },
+  "q5": {
+    "query": "What career outcomes do students achieve after graduation?"
+  }
+}

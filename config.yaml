@@ -1,0 +1,86 @@
+project:
+  name: msads-rag-assistant
+  random_seed: 42
+
+source:
+  root_url: "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/"
+  allowed_domain: "datascience.uchicago.edu"
+  allowed_path_prefix: "/education/masters-programs/ms-in-applied-data-science"
+  max_pages: 30
+  crawl_depth: 2
+
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  eval_dir: data/eval
+  index_dir: data/indexes
+  output_dir: outputs
+
+pipeline:
+  run_crawling: false
+  run_chunking: false
+  run_indexing: false
+  run_retrieval_eval: false
+  run_generation_eval: true
+
+models:
+  embedding:
+    provider: sentence_transformers
+    name: BAAI/bge-base-en-v1.5
+    batch_size: 64
+    normalize_embeddings: true
+
+  reranker:
+    provider: sentence_transformers
+    name: cross-encoder/ms-marco-MiniLM-L-6-v2
+    fetch_k: 20
+    top_n: 5
+
+  llm:
+    provider: openai
+    name: gpt-4o-mini
+    temperature: 0.0
+    max_tokens: 700
+
+chunking:
+  strategy: header_aware_recursive
+  chunk_size: 700
+  chunk_overlap: 100
+
+retrieval:
+  top_k: 5
+  fetch_k: 20
+
+  bm25:
+    enabled: true
+    k1: 1.5
+    b: 0.75
+
+  hybrid:
+    fusion: rrf
+    rrf_k: 60
+
+generation:
+  answer_only_from_context: true
+  fallback_message: "I don't have enough information in the provided MSADS website context to answer this question."
+  citation_style: "[Source N]"
+  max_context_chunks: 5
+
+evaluation:
+  hit_rate_k: 5
+  ragas_sample_size: 10
+  metrics:
+    - faithfulness
+    - answer_relevancy
+    - context_precision
+    - context_recall
+    - answer_correctness
+
+ui:
+  title: "MSADS RAG Assistant"
+  page_icon: "🎓"
+  show_sources: true
+
+logging:
+  level: INFO
+  save_outputs: true
