@@ -18,6 +18,10 @@ MSADS_INTENT_EXAMPLES = [
     "Who are the faculty and instructors?",
     "What are the application deadlines?",
     "What scholarships or financial aid are available?",
+    "List all MSADS courses",
+    "What courses are offered?",
+    "Show curriculum structure",
+    "What classes will I take?"
 ]
 
 GENERAL_CHAT_EXAMPLES = [
