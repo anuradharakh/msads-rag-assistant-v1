@@ -5,73 +5,73 @@
     "retrieved_chunks": [
       {
         "rank": 1,
-        "chunk_id": "chunk_90fa4ba4ff38",
+        "chunk_id": "chunk_e30380ca5193",
+        "chunk_text": "Title: Course Progressions | DSI\nSection: MSADS Course Catalog\n\nThe MS in Applied Data Science curriculum includes the following course categories and course names.\n\nFoundational Courses:\n- Introduction to Statistical Concepts\n- R for Data Science\n- Python for Data Science\n- Advanced Linear Algebra for Machine Learning\n\nCore Courses:\n- Statistical Models for Data Science\n- Leadership and Consulting for Data Science\n- Data Engineering Platforms for Analytics\n- Big Data and Cloud Computing\n- Machine Learning I\n- Time Series Analysis and Forecasting\n- Machine Learning II\n\nCapstone:\n- Data Science Capstone Project\n\nSeminar:\n- Career Seminar\n\nElective Examples:\n- Generative AI Principles\n- Advanced Computer Vision with Deep Learning\n- Advanced Machine Learning and Artificial Intelligence\n- Bayesian Machine Learning with GenAI Applications\n- Data Science for Algorithmic Marketing\n- Data Visualization Techniques\n- Digital Marketing Analytics in Theory and Practice\n- Financial Analytics\n- Health Analytics\n- Machine Learning Operations\n- Natural Language Processing and Cognitive Computing\n- Real Time Intelligent Systems\n- Reinforcement Learning\n- Supply Chain Optimization\n- Quantitative Finance",
+        "metadata": {
+          "title": "Course Progressions | DSI",
+          "section": "MSADS Course Catalog",
+          "chunk_type": "curriculum_catalog",
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/course-progressions"
+        },
+        "score": 0.01639344262295082,
+        "retrieval_strategy": "rrf_fused+reranker",
+        "reranker_score": 7.674777507781982
+      },
+      {
+        "rank": 2,
+        "chunk_id": "chunk_d95247027e7d",
         "chunk_text": "The MS in Applied Data Science program offers both a 12-course track and an 18-course thesis track. It is offered in online and in-person formats, with in-person classes held at the NBC Tower in downtown Chicago. The program focuses on applying data science and machine learning methods to real-world problems through hands-on coursework, industry collaborations, and a two-quarter capstone or research project.\nFor a more detailed breakdown of the differences between the two programs, check out this article\nhere\n.",
         "metadata": {
           "title": "FAQs | DSI",
           "chunk_type": "header_recursive",
-          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
-          "section": "Validity guidelines"
+          "section": "Validity guidelines",
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs"
         },
-        "score": 0.014925373134328358,
+        "score": 0.014705882352941176,
         "retrieval_strategy": "rrf_fused+reranker",
         "reranker_score": 1.9532725811004639
       },
       {
-        "rank": 2,
-        "chunk_id": "chunk_53edd49f978e",
+        "rank": 3,
+        "chunk_id": "chunk_21b06da123aa",
         "chunk_text": "program focuses on the center of Computer Science, including Software Engineering, High Performance Computing, Data Analytics, and Application Development. The MS-ADS Program focuses at the intersection of multiple fields, such as Computer Science, Mathematics, and Statistics (including Statistical Inference, Linear/Non-Linear Models, Machine Learning, Natural Language Processing, and Deep Learning). The outcomes for MPCS students include Software Engineer (Developer), Senior Software Engineering Management, Software/Hardware Architect, and Senior Cyber Security Engineer",
         "metadata": {
-          "chunk_type": "header_recursive",
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
           "section": "MPCS",
           "title": "FAQs | DSI",
-          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs"
+          "chunk_type": "header_recursive"
         },
-        "score": 0.01639344262295082,
+        "score": 0.016129032258064516,
         "retrieval_strategy": "rrf_fused+reranker",
         "reranker_score": 0.4007440209388733
       },
       {
-        "rank": 3,
-        "chunk_id": "chunk_7094a197e8a2",
+        "rank": 4,
+        "chunk_id": "chunk_95980c2b812c",
         "chunk_text": "Title: Course Progressions | DSI\nSection: Curriculum Details\n\nThe Master’s in Applied Data Science program offers two curriculum pathways: a 12-course program and an 18-course thesis track. Both include core courses, electives, a multi-quarter Capstone Project, and a required Career Seminar. The 18-course program includes additional electives and a thesis requirement. See below for a breakdown of each component.",
         "metadata": {
-          "title": "Course Progressions | DSI",
-          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/course-progressions",
           "section": "Curriculum Details",
-          "chunk_type": "header_recursive"
+          "chunk_type": "header_recursive",
+          "title": "Course Progressions | DSI",
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/course-progressions"
         },
-        "score": 0.015625,
+        "score": 0.015384615384615385,
         "retrieval_strategy": "rrf_fused+reranker",
         "reranker_score": -0.10007746517658234
       },
       {
-        "rank": 4,
-        "chunk_id": "chunk_9e9849756ec5",
+        "rank": 5,
+        "chunk_id": "chunk_d0ac841c403d",
         "chunk_text": ". The outcomes for students in MS-ADS include roles as Data Scientist (most common), Senior Data Science Consultant, Business Intelligence (BI) Director, Data Visualization Manager, Data Analytics Engineer, and AI Solution Architect.",
         "metadata": {
           "section": "MPCS",
-          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
+          "title": "FAQs | DSI",
           "chunk_type": "header_recursive",
-          "title": "FAQs | DSI"
-        },
-        "score": 0.016129032258064516,
-        "retrieval_strategy": "rrf_fused+reranker",
-        "reranker_score": -0.9058750867843628
-      },
-      {
-        "rank": 5,
-        "chunk_id": "chunk_e7f6f0312c13",
-        "chunk_text": "A snapshot of the talented students in our MS in Applied Data Science program.\nI chose the MS-ADS program for its rigorous, industry-focused curriculum and the opportunity to learn from world-class faculty who bridge academic research with real-world applications. The program’s emphasis on hands-on learning through the capstone project particularly appealed to me, as it allows students to tackle complex, data-driven problems in collaboration with leading organizations.\nAge Breakdown (In-Person & Online)",
-        "metadata": {
-          "title": "Our Students | DSI",
-          "section": "Meet a Few of Our Students",
-          "chunk_type": "header_recursive",
-          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/our-students"
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs"
         },
         "score": 0.015873015873015872,
         "retrieval_strategy": "rrf_fused+reranker",
-        "reranker_score": -1.7733960151672363
+        "reranker_score": -0.9058750867843628
       }
     ]
   },
@@ -81,7 +81,7 @@
     "retrieved_chunks": [
       {
         "rank": 1,
-        "chunk_id": "chunk_04607a555fa4",
+        "chunk_id": "chunk_9cd4d74daed2",
         "chunk_text": "The MS in Applied Data Science program requires two letters of recommendation. We\nstrongly recommend\nthat at least one letter is written by someone such as a direct manager/supervisor or internship supervisor who can attest to skills you demonstrated or gained though a professional workplace experience (e.g., leadership, teamwork, collaboration, initiative, management, other).\nNote: Letters of recommendation can be uploaded after you submit your application. Recommended sources for letters of recommendation include: professors; supervisors or managers; professional mentors.\nWe do not accept letters of recommendation from family members, friends, or peers.",
         "metadata": {
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply",
@@ -95,7 +95,7 @@
       },
       {
         "rank": 2,
-        "chunk_id": "chunk_4d4db56f24fb",
+        "chunk_id": "chunk_3952a3adbf95",
         "chunk_text": "Title: FAQs | DSI\nSection: Please refer to the\n\nTuition, Fees, and Aid\nwebpage.\nIs the Master's in Applied Data Science an approved OPT/STEM program?\nYes, the full-time, In-Person Master’s in Applied Data Science program is listed as a STEM-designated degree by the U.S. Department of Homeland Security for the purposes of the STEM OPT extension, allowing eligible students to apply. However, approval of STEM OPT is at the discretion of U.S. Citizenship & Immigration Services.\nDoes the Master's in Applied Data Science program offer Curricular Practical Training (CPT)?",
         "metadata": {
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
@@ -109,13 +109,13 @@
       },
       {
         "rank": 3,
-        "chunk_id": "chunk_810ad9bda659",
+        "chunk_id": "chunk_cd041d634571",
         "chunk_text": "Alison Ossyra is the Director of External Partnerships and Career Services for the Master’s in Applied Data Science (MS-ADS) program. Since 2017, Alison has been dedicated to supporting MS-ADS students in various capacities. Currently, she oversees career services, fosters external partnerships, manages alumni relations, and coordinates capstone projects. Her diverse experience also includes roles in admissions and marketing. Alison holds a BA in International Studies from the University of Illinois. She began her career in higher education at Northwestern University, bringing a wealth of knowledge and a passion for student success to her current role.",
         "metadata": {
-          "chunk_type": "header_recursive",
-          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/instructors-staff",
+          "section": "Henry",
           "title": "Faculty, Instructors, Staff | DSI",
-          "section": "Henry"
+          "chunk_type": "header_recursive",
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/instructors-staff"
         },
         "score": 0.015384615384615385,
         "retrieval_strategy": "rrf_fused+reranker",
@@ -123,31 +123,31 @@
       },
       {
         "rank": 4,
-        "chunk_id": "chunk_3ea388e51f15",
+        "chunk_id": "chunk_d95247027e7d",
+        "chunk_text": "The MS in Applied Data Science program offers both a 12-course track and an 18-course thesis track. It is offered in online and in-person formats, with in-person classes held at the NBC Tower in downtown Chicago. The program focuses on applying data science and machine learning methods to real-world problems through hands-on coursework, industry collaborations, and a two-quarter capstone or research project.\nFor a more detailed breakdown of the differences between the two programs, check out this article\nhere\n.",
+        "metadata": {
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
+          "title": "FAQs | DSI",
+          "section": "Validity guidelines",
+          "chunk_type": "header_recursive"
+        },
+        "score": 0.025528455284552845,
+        "retrieval_strategy": "rrf_fused+reranker",
+        "reranker_score": -4.741237640380859
+      },
+      {
+        "rank": 5,
+        "chunk_id": "chunk_c74937d065a5",
         "chunk_text": "Jennifer Wei is the Assistant Director of Career Services for the Master’s in Applied Data Science (MS-ADS) program. Her focus is on advising MS-ADS students in their career journey through individualized sessions and career workshops. Jennifer joins the program from industry where she worked in various engineering, consulting, and management roles. Jennifer holds a BS in Mechanical Engineering and a Master’s in Engineering Management from Northwestern University.",
         "metadata": {
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/instructors-staff",
           "chunk_type": "header_recursive",
           "section": "Patrick",
-          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/instructors-staff",
           "title": "Faculty, Instructors, Staff | DSI"
         },
         "score": 0.014492753623188406,
         "retrieval_strategy": "rrf_fused+reranker",
         "reranker_score": -4.9929938316345215
-      },
-      {
-        "rank": 5,
-        "chunk_id": "chunk_e7f6f0312c13",
-        "chunk_text": "A snapshot of the talented students in our MS in Applied Data Science program.\nI chose the MS-ADS program for its rigorous, industry-focused curriculum and the opportunity to learn from world-class faculty who bridge academic research with real-world applications. The program’s emphasis on hands-on learning through the capstone project particularly appealed to me, as it allows students to tackle complex, data-driven problems in collaboration with leading organizations.\nAge Breakdown (In-Person & Online)",
-        "metadata": {
-          "chunk_type": "header_recursive",
-          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/our-students",
-          "title": "Our Students | DSI",
-          "section": "Meet a Few of Our Students"
-        },
-        "score": 0.016129032258064516,
-        "retrieval_strategy": "rrf_fused+reranker",
-        "reranker_score": -5.024947643280029
       }
     ]
   },
@@ -157,7 +157,7 @@
     "retrieved_chunks": [
       {
         "rank": 1,
-        "chunk_id": "chunk_d69ab5cc2a23",
+        "chunk_id": "chunk_f044b4718323",
         "chunk_text": "Are standardized tests required for admission?\nAs part of the online application, candidates will be required to submit a GMAT or GRE score for the joint program. International applicants may be required to submit proof of English language proficiency by submitting a TOEFL iBT or IELTS test score. The minimum TOEFL iBT score required for admission is 104; the minimum IELTS score required is 7. Proof of English proficiency may be waived under certain criteria noted by UChicago GRAD Admissions.\nWhat are the main differences in programs and outcomes between the MBA/MS in Applied Data Science compared to Computer Science?",
         "metadata": {
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
@@ -171,13 +171,13 @@
       },
       {
         "rank": 2,
-        "chunk_id": "chunk_aa4e15f3579c",
+        "chunk_id": "chunk_0c1c72a018cc",
         "chunk_text": "May I switch between the 1- and 2-year programs after officially enrolling in the MS-ADS program?\nNo. Once admitted to the 1-year program, there is no opportunity to enroll in the 2-year program. Those admitted to the 2-year program might, under extenuating case by case circumstances, graduate early after completing the initial 12 courses of the MS degree (4-5 quarters). Any such student must meet with program faculty and staff by the required deadlines in order to maintain good academic standing and/or visa compliance (if applicable).\nIf I am admitted to the In-Person, Full-Time 1-year program, may I take any of the 2-year program electives?",
         "metadata": {
-          "chunk_type": "header_recursive",
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
-          "section": "MPCS",
-          "title": "FAQs | DSI"
+          "chunk_type": "header_recursive",
+          "title": "FAQs | DSI",
+          "section": "MPCS"
         },
         "score": 0.015625,
         "retrieval_strategy": "rrf_fused+reranker",
@@ -185,7 +185,7 @@
       },
       {
         "rank": 3,
-        "chunk_id": "chunk_630c978036ed",
+        "chunk_id": "chunk_0c747e03e480",
         "chunk_text": ". Applicants should complete the Chicago Booth Full-Time MBA\napplication\nand select the MBA/MS in Applied Data Science as their program of interest. An MBA/MS program supplement will be available for completion within your Booth application. The supplement contains Applied Data Science specific questions that will be reviewed by the Applied Data Science admissions team along with your full Booth application. For complete consideration, applicants should complete the MBA application and the joint degree program supplement in the same application round prior to submitting the application.\nWhat courses will I take in the MBA/MS program?",
         "metadata": {
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
@@ -199,12 +199,12 @@
       },
       {
         "rank": 4,
-        "chunk_id": "chunk_d5eef7a4e80a",
+        "chunk_id": "chunk_8d78f41d4481",
         "chunk_text": "Title: International Students | DSI\nSection: English language proficiency\n\nApplicants to the Master’s in Applied Data Science program who do not meet the English Language Proficiency criteria must submit proof of English language proficiency.\nMinimum scores for the Master’s in Applied Data Science program: TOEFL: 102 (prior requirement) or 5 (current requirement; no subscore requirement); IELTS, 7 (no subscore requirement).",
         "metadata": {
-          "title": "International Students | DSI",
-          "section": "English language proficiency",
           "chunk_type": "header_recursive",
+          "section": "English language proficiency",
+          "title": "International Students | DSI",
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students"
         },
         "score": 0.015873015873015872,
@@ -213,12 +213,12 @@
       },
       {
         "rank": 5,
-        "chunk_id": "chunk_9dd54dd0e266",
+        "chunk_id": "chunk_130661ae40ba",
         "chunk_text": "Title: How to Apply | DSI\nSection: Virtual Portfolio\n\nThe MS in Applied Data Science requires short, recorded videos to a given prompt(s) within the application. These short videos give applicants an alternative means to outline why they are a strong fit for the MS in Applied Data Science program.\nOne video prompt response is required; the other is optional. Each video should be approximately 1:30 minutes in length.",
         "metadata": {
-          "title": "How to Apply | DSI",
-          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply",
           "section": "Virtual Portfolio",
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply",
+          "title": "How to Apply | DSI",
           "chunk_type": "header_recursive"
         },
         "score": 0.015384615384615385,
@@ -233,13 +233,13 @@
     "retrieved_chunks": [
       {
         "rank": 1,
-        "chunk_id": "chunk_4d774cbc1739",
+        "chunk_id": "chunk_4178a5a48ccb",
         "chunk_text": "Title: Online Program | DSI\nSection: Get in Touch\n\nWant to get in touch with our enrollment team? Click below to share your information and receive details about the MS in Applied Data Science program and upcoming events.\nConnect with Us!",
         "metadata": {
-          "title": "Online Program | DSI",
-          "section": "Get in Touch",
           "chunk_type": "header_recursive",
-          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/online-program/%20"
+          "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/online-program/%20",
+          "title": "Online Program | DSI",
+          "section": "Get in Touch"
         },
         "score": 0.015151515151515152,
         "retrieval_strategy": "rrf_fused+reranker",
@@ -247,7 +247,7 @@
       },
       {
         "rank": 2,
-        "chunk_id": "chunk_2d3eb1a2c41f",
+        "chunk_id": "chunk_23dcfba1cb35",
         "chunk_text": ".\nWill my diploma indicate I completed the Master's in Applied Data Science Program Online?\nNo, your diploma will\nnot\ninclude ‘Online’ in the name of your degree.\nMBA/MS\nHow do I apply to the MBA/MS joint degree program?\nApplicants interested in the Joint MBA/MS degree will apply through\nBooth’s centralized, joint-application process\n. Applicants should complete the Chicago Booth Full-Time MBA\napplication",
         "metadata": {
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
@@ -255,13 +255,13 @@
           "section": "Physical Sciences Division",
           "chunk_type": "header_recursive"
         },
-        "score": 0.016129032258064516,
+        "score": 0.02832415420928403,
         "retrieval_strategy": "rrf_fused+reranker",
         "reranker_score": -0.007094927132129669
       },
       {
         "rank": 3,
-        "chunk_id": "chunk_e4417e1edc5c",
+        "chunk_id": "chunk_d6723d2e9939",
         "chunk_text": "joint-degree MBA and Applied Data Science program\n, you’ll take the equivalent of 23 100-unit courses:\n14 MBA classes\n9 data science courses\nLeadership Effectiveness and Development (LEAD)\nQualified Work Experience, a noncredit professional internship experience\nYour Booth courses will be in person, while your MS courses will be online. Most students will earn both degrees in seven quarters—the same time it takes to earn the MBA.\nWill MBA/MS courses be in-person or online?",
         "metadata": {
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
@@ -275,7 +275,7 @@
       },
       {
         "rank": 4,
-        "chunk_id": "chunk_7d4462bd39b9",
+        "chunk_id": "chunk_7ce69a58ebf1",
         "chunk_text": "Will MBA/MS courses be in-person or online?\nYour Booth courses will be in person, while your MS courses will be online. Most students will earn both degrees in seven quarters—the same time it takes to earn the MBA. A combination of online and in-person courses gives you flexibility in course scheduling, and you’ll earn two degrees in the time it would take to complete the MBA alone.\nAre standardized tests required for admission?",
         "metadata": {
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
@@ -289,7 +289,7 @@
       },
       {
         "rank": 5,
-        "chunk_id": "chunk_f01885575fe4",
+        "chunk_id": "chunk_3d078044bca7",
         "chunk_text": "The longer degree timeline offers more time to engage in academic and professional development while maintaining the same rigorous core curriculum and access to UChicago’s faculty and data science network. The first 12 of 18 courses that students complete in the 2-year program follow exactly the same course progression as those in the 1-year, 12-course program.\nThe 2-year program is not currently available to those in the Online program and/or those pursuing the MS in Applied Data Science on a part-time basis.\nWhen can I apply for the 2-year thesis track program?",
         "metadata": {
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs",
@@ -309,7 +309,7 @@
     "retrieved_chunks": [
       {
         "rank": 1,
-        "chunk_id": "chunk_0b59dfa665ce",
+        "chunk_id": "chunk_10da0ae0feaf",
         "chunk_text": "Title: In-Person Program | DSI\nSection: Career Outcomes in Data Science\n\nYour success is our success. Graduates of UChicago’s Master’s in Applied Data Science program consistently demonstrate competitive outcomes. You will have full access to our tailored career services and external partnerships team to help you advance your career in data science–whether you are launching your career, interested in pivoting, or want to move up within your current company. You can take advantage of in-house career services advising and coaching, tailored networking events, career fairs to connect directly with employers, internship placement support, and more.",
         "metadata": {
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/in-person-program",
@@ -323,7 +323,7 @@
       },
       {
         "rank": 2,
-        "chunk_id": "chunk_30d530c6bffc",
+        "chunk_id": "chunk_d00c0c0ea266",
         "chunk_text": "Title: Career Outcomes | DSI\nSection: Follow\n\nIt is an exciting time to pursue a career in data science! According to the\nU.S. Bureau of Labor Statistics\n, employment for data scientists is projected to grow by 36% from 2023 to 2033—far exceeding the average growth rate for all occupations. This surge is driven by the increasing reliance on data science across industries such as technology, finance, healthcare, and business.\nThe career outcomes for our MS in Applied Data Science graduates are exceptional. Explore the diverse career paths our alumni have pursued, from top employers to leading industries actively seeking our graduates.",
         "metadata": {
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/career-outcomes",
@@ -337,7 +337,7 @@
       },
       {
         "rank": 3,
-        "chunk_id": "chunk_ea44d3462ca1",
+        "chunk_id": "chunk_1adc32ea56f5",
         "chunk_text": "Title: Career Outcomes | DSI\nSection: Career Outcomes\n\nMS-ADS program graduates work at the following places:\n*All outcomes are based on 2024-2025 First Destination survey data.",
         "metadata": {
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/career-outcomes",
@@ -351,12 +351,12 @@
       },
       {
         "rank": 4,
-        "chunk_id": "chunk_eb55e81317ca",
+        "chunk_id": "chunk_ae1fe96bd362",
         "chunk_text": "Title: Online Program | DSI\nSection: Your Outcomes\n\nAs a graduate of the online applied data science program, you will be a top competitor among data science jobs and career paths as a result of this program. You will have access to a dedicated team of faculty and staff who are committed to helping you reach your potential–whether it’s landing a key internship, preparing for a promotion, or moving into your next job, the MS in Applied Data Science program is here to help. Among other resources, you will have access to tailored, in-house career services, academic advising, and opportunities to grow your network in person and virtually.",
         "metadata": {
-          "section": "Your Outcomes",
           "chunk_type": "header_recursive",
           "title": "Online Program | DSI",
+          "section": "Your Outcomes",
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/online-program/%20"
         },
         "score": 0.013513513513513514,
@@ -365,7 +365,7 @@
       },
       {
         "rank": 5,
-        "chunk_id": "chunk_ee1d77f2d17c",
+        "chunk_id": "chunk_611c1806ddcd",
         "chunk_text": "Title: Career Outcomes | DSI\nSection: International Students\n\nFaculty, Instructors, Staff",
         "metadata": {
           "url": "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/career-outcomes",

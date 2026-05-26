@@ -19,9 +19,9 @@ paths:
 pipeline:
   run_crawling: false
   run_chunking: false
-  run_indexing: false
+  run_indexing: true
   run_retrieval_eval: false
-  run_generation_eval: true
+  run_generation_eval: false
 
 models:
   embedding:
@@ -49,7 +49,7 @@ chunking:
 
 retrieval:
   top_k: 5
-  fetch_k: 20
+  fetch_k: 25
 
   bm25:
     enabled: true
