@@ -109,11 +109,16 @@ def answer_question(question: str):
     )
 
     status.write("🧠 Generating grounded answer")
-    status.update(label="RAG pipeline completed", state="complete", expanded=False)
 
     answer = generator.generate(
         question=question,
         chunks=chunks[: config["generation"]["max_context_chunks"]],
+    )
+
+    status.update(
+        label="✅ RAG pipeline completed",
+        state="complete",
+        expanded=False,
     )
 
     return answer, chunks, route, confidence

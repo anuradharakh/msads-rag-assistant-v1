@@ -87,13 +87,21 @@ class QueryRouter:
 def direct_response(route: str) -> str:
     if route == "GENERAL_CHAT":
         return (
-            "Hi! I’m the MSADS RAG Assistant. I can help with questions about "
-            "admissions, curriculum, courses, capstone, tuition, online/in-person options, "
-            "career outcomes, CPT/OPT, and other MS in Applied Data Science program details."
+            "Thanks for asking this question. I am only allowed to answer questions related to the University of Chicago "
+            "MS in Applied Data Science program — including admissions, curriculum, "
+            "courses, capstone, tuition, online/in-person options, CPT/OPT, "
+            "career outcomes, and more."
         )
 
     return (
-        "I’m designed to help with questions about the University of Chicago MS in Applied "
-        "Data Science program. I can help with admissions, curriculum, courses, capstone, "
-        "tuition, online/in-person options, career outcomes, CPT/OPT, and related program topics."
-    )
+        "I’d be happy to help any questions related to MSADS program😊\n\n"
+        "You can ask me about the University of Chicago MS in Applied Data Science program, including:\n\n"
+        "• admissions requirements\n"
+        "• curriculum and courses\n"
+        "• electives and capstone\n"
+        "• tuition and schedules\n"
+        "• online vs in-person options\n"
+        "• CPT/OPT and international student questions\n"
+        "• career outcomes and internships\n\n"
+        "I’m here to make navigating the MSADS program easier."
+)
